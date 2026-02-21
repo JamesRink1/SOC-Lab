@@ -3,7 +3,10 @@
 
 
 <h2>Description</h2>
-<b>Using Microsoft Azure I create a virtual machine (VM), leaving it exposed to the internet as a honeypot, and forwarding logs to a central repository. We then integrate Microsoft Sentinel to analyze real-world attack data.</b>
+<b>In this lab I simulate a SOC environment with a vulnerable machine and collect/analyze logs from attackers around the world. Utilizing Josh Madakors guide, I will be using Microsoft Azure to create a virtual machine (VM), exposing it to the internet as a honeypot, and forwarding logs to the Log Analytics Workspace which will be our central log repository. We then integrate Microsoft Sentinel to analyze real-world attack data.</b>
+
+
+</b>Josh Madakor's Guide: https://www.youtube.com/watch?v=g5JL2RIbThM&t=3598s</b>
 
 
 
@@ -132,7 +135,7 @@
 
 
 
-<h3>Step 12: We run a query to view our logs in a more granular way, down to the longitude, latitude and city names that are associated with a certain IP address. </h3>
+<h3>Step 12: We run a query to view our logs in a more granular way, down to the longitude, latitude and city names that are associated with the specific IP address. </h3>
 
 
 
